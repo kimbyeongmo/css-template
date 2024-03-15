@@ -48,3 +48,11 @@ body{
 br.mo{
   display: none;
 }
+
+/* 화면 정중앙에 위치하기 위한 하나의 공식처럼 사용됨 */
+.center{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
