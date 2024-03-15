@@ -56,3 +56,26 @@ br.mo{
   top: 50%;
   transform: translate(-50%,-50%);
 }
+
+/* section > div.title 공통 style */
+section .title{
+  text-align: center;
+}
+
+section .title h2{
+  font-size: 45px;
+  color: #111;
+  margin-bottom: 5px;
+}
+
+section .title p{
+  font-size: 18px;
+  color: #555;
+}
+
+section .sub-container{
+  /* background: tomato; */
+  width: 74%;
+  margin: 0 auto;
+}
+
